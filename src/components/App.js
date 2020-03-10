@@ -14,7 +14,7 @@ class App extends React.Component {
       state = { video : [], selectvideo: null}
 
     onsubmitofterm = async input => {
-        const response = await youtube.get('/seach',{
+        const response = await youtube.get('/search',{
         params : {
             q : input
 
